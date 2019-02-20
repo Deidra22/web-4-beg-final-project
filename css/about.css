@@ -97,6 +97,29 @@ ul{
 }
 
 
+.button{
+    display:block;
+    margin:0 auto;
+    height:40px;
+    width:60px;
+    color:#A83DCC;
+    background-color:#5F007F;
+}
+
+#myDIV{
+    height:30px;
+    width:100%;
+    text-align:center;
+}
+
+.mystyle {
+  width: 99%;
+  padding: 3px;
+  background-color: #760F99;
+  color:#A83DCC;
+  font-size: 25px;
+}
+
 
 
 

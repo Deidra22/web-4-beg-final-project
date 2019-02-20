@@ -55,6 +55,33 @@ body{
   border-radius:10px;
 }
 
+
+img {
+  padding: 2px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #D896EE;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /******SOCIAL MEDIA BUTTONS START******/
 
 .social{
