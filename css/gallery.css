@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    background-color:#760F99;
+    line-height:1.6;
+}
+
+.nav-bar{
+    height:70px;
+    width:100%;
+}
+
+.nav-list{
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+    margin-top:20px;
+    font-weight:bold;
+    padding:5px 10px;
+}
+
+.nav a{
+    opacity:0.9;
+    background-color:#D896EE;
+    border-radius:12px;
+    padding:5px 30px;
+    margin-left:20px;
+    text-decoration:none;
+    color:#5F007F;
+}
+
+
+.nav :hover{
+    background-color:#8E23B2;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left:40px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height:350px;
+  width:350px;
+  border-radius:10px;
+}
+
+/******SOCIAL MEDIA BUTTONS START******/
+
+.social{
+    text-align:center;
+}
+
+    
+
+.fa-facebook{
+    color:#4267b2;
+    font-size:50px;
+    margin-right:20px;
+    margin-top:15px;
+}
+
+.fa-instagram{
+    color:#231F20;
+    font-size:50px;
+}
+/******SOCIAL MEDIA BUTTONS END******/
+
+.copyright{
+    text-align:center;
+    margin-top:25px;
+}

@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:#cc0099;
+    line-height:1.6;
+}
+
+#showcase{
+    background-image:url('../image/owl.jpg');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.25);
+    z-index: 2;
+}
+
+.head1{
+     text-shadow: 0px 1px 0px #D387EC, 0px 2px 0px #CD78E9, 0px 3px 0px #AF4ED0, 0px 4px 0px #A83DCC, 0px 5px 0px #8E23B2, 0px 6px 0px #760F99, 0px 7px 0px #5F007F, 0px 8px 7px #330033;
+    color:#D387EC;
+    font-size:70px;
+    font-weight:bold;
+    font-style:oblique;
+    letter-spacing:3px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-list{
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+    padding:5px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav a{
+    opacity:0.9;
+    background-color:#D896EE;
+    border-radius:12px;
+    padding:5px 30px;
+    margin-left:20px;
+    text-decoration:none;
+    color:#5F007F;
+}
+
+
+.nav :hover{
+    background-color:#8E23B2;
+}
+
+.head3{
+    text-align:center;
+}
+
+.sec-1{
+    text-shadow:none;
+    padding:20px;
+    background-color:#760F99;
+    color:#D387EC;
+}
+.sec-2{
+    text-shadow:none;
+    padding:20px;
+    background-color:#8E23B2;
+    color:#D387EC;
+}
+
+
+.foot{
+    color:#D387EC;
+    background-color:#A83DCC;
+}
+
+/******SOCIAL MEDIA BUTTONS START******/
+
+.social{
+    text-align:center;
+}
+    
+
+.fa-facebook{
+    color:#4267b2;
+    font-size:50px;
+    margin-right:20px;
+    margin-top:15px;
+}
+
+.fa-instagram{
+    color:#231F20;
+    font-size:50px;
+}
+/******SOCIAL MEDIA BUTTONS END******/
+
+.copyright{
+    text-align:center;
+    margin-top:25px;
+}
