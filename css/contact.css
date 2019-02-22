@@ -6,6 +6,8 @@ body{
     line-height:1.6;
 }
 
+/****START OF NAV BAR****/
+
 .nav-bar{
     height:70px;
     width:100%;
@@ -41,12 +43,12 @@ body{
     height:600px;
    
 }
+/****END OF NAV BAR****/
 
+/****START OF CONTACT COLUMNS****/
 .col1{
     width:90%;
     height:600px;
-    border: 2px solid #D896EE;
-    border-radius:10px;
     margin-left:50px;
 }
 
@@ -59,7 +61,7 @@ h1{
     height:32px;
     font-size:20px;
     margin:0 auto;
-    margin-top:30px;
+    margin-top:8px;
 }
 
 iframe{
@@ -70,22 +72,18 @@ iframe{
 .col2{
     width:90%;
     height:600px;
-    border: 2px solid #D896EE;
-    border-radius:10px;
 }
+/****END OF CONTACT COLUMNS****/
 
-
+/****START OF FOOTER****/
 .foot{
     position:static;
 }
 
 /******SOCIAL MEDIA BUTTONS START******/
-
 .social{
     text-align:center;
 }
-
-    
 
 .fa-facebook{
     color:#4267b2;
@@ -104,3 +102,4 @@ iframe{
     text-align:center;
     margin-top:25px;
 }
+/****END OF FOOTER****/

@@ -6,6 +6,7 @@ body{
     line-height:1.6;
 }
 
+/****START OF NAV BAR****/
 .nav-bar{
     height:70px;
     width:100%;
@@ -30,11 +31,12 @@ body{
     color:#5F007F;
 }
 
-
 .nav :hover{
     background-color:#8E23B2;
 }
+/****END OF NAV BAR****/
 
+/****START OF FLEX BOX****/
 .flex-con{
     display:flex;
     justify-content:center;
@@ -72,7 +74,6 @@ h2{
     width:40%;
     justify-content:center;
     margin:0px 20px 0px 20px;
-    
 }
 
 .col3{
@@ -96,14 +97,15 @@ ul{
     margin-top:-270px;
 }
 
-
 .button{
     display:block;
     margin:0 auto;
     height:40px;
     width:60px;
+    border-radius:4px;
     color:#A83DCC;
     background-color:#5F007F;
+    border-color:#5F007F;
 }
 
 #myDIV{
@@ -119,17 +121,14 @@ ul{
   color:#A83DCC;
   font-size: 25px;
 }
+/****END OF FLEX BOX****/
 
+/****START OF FOOTER****/
 
-
-
-/******SOCIAL MEDIA BUTTONS START******/
-
+/****SOCIAL MEDIA BUTTONS START****/
 .social{
     text-align:center;
 }
-
-    
 
 .fa-facebook{
     color:#4267b2;
@@ -142,9 +141,10 @@ ul{
     color:#231F20;
     font-size:50px;
 }
-/******SOCIAL MEDIA BUTTONS END******/
+/****END SOCIAL MEDIA BUTTONS****/
 
 .copyright{
     text-align:center;
     margin-top:25px;
 }
+/****END OF FOOTER****/

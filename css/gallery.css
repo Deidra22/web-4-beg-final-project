@@ -6,6 +6,7 @@ body{
     line-height:1.6;
 }
 
+/****START OF NAV BAR****/
 .nav-bar{
     height:70px;
     width:100%;
@@ -34,7 +35,9 @@ body{
 .nav :hover{
     background-color:#8E23B2;
 }
+/****END OF NAV BAR****/
 
+/****START OF GALLERY****/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +58,6 @@ body{
   border-radius:10px;
 }
 
-
 img {
   padding: 2px;
   width: 150px;
@@ -65,15 +67,12 @@ img:hover {
   box-shadow: 0 0 2px 1px #D896EE;
 }
 
-
-
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
-  }
+ }
 }
-
 
 @media screen and (max-width: 600px) {
   .column {
@@ -81,14 +80,14 @@ img:hover {
     max-width: 100%;
   }
 }
+/****END OF GALLERY****/
+
+/****START OF FOOTER****/
 
 /******SOCIAL MEDIA BUTTONS START******/
-
 .social{
     text-align:center;
 }
-
-    
 
 .fa-facebook{
     color:#4267b2;
@@ -107,3 +106,4 @@ img:hover {
     text-align:center;
     margin-top:25px;
 }
+/****END OF FOOTER****/
